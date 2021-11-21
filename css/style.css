@@ -58,12 +58,16 @@ body {
   letter-spacing: 0.02em;
   color: var(--second-text-color);
 }
+.links{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--second-text-color);
+}
 .nav-contacts:hover,
 .nav-contacts:focus {
   color: var(--accent-color);
-}
-.main-container {
-  width: 1200px;
 }
 /* --------------------------------- HERO -------------------------- */
 
@@ -91,6 +95,7 @@ body {
   padding-right: 32px;
   padding-top: 10px;
   padding-bottom: 10px;
+  border: 0px;
 }
 .hero-button {
   margin: 0 auto;
@@ -170,7 +175,20 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
+.how-section{
+  padding-bottom: 200px;
+  padding-top: 200px;
+    background-color: #2F303A;
+}
+.container-how-effects{
+  width: 696px;
+  margin-left: 252px;
+  margin-right: 252px;
+}
+
 /* ------------------------ ABOUT --------------------------------- */
 .our-occupation {
   background-color: #ffffff;
@@ -317,22 +335,9 @@ body {
   margin-right: 15px;
 }
 .about-name {
-  margin-top: 30px;
-  margin-bottom: 10px;
-}
-.about-name {
   text-align: center;
 }
-.bg-color {
-  height: 368px;
-  background-color: #ffffff;
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
-}
-.bg {
-  padding-top: 200px;
-  padding-bottom: 200px;
-  background-color: #2f303a;
-}
+
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -447,12 +452,76 @@ body {
 .header-item:last-child {
   margin-right: 0px;
 }
-.nav-contacts {
+.nav-contacts{
   display: flex;
-  list-style: none;
-  margin-right: auto;
-  padding: 0;
 }
-.cont1 {
+.cont1{
   margin-right: 50px;
+}
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+.container{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.hero-list{
+  display: flex;
+}
+.fitchers-list:not(:last-child){
+  margin-right: 30px;
+}
+.img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.about-list:not(:last-child){
+  margin-right: 30px;
+}
+.about-team-section{
+padding-top: 94px;
+padding-bottom: 94px;
+background-color: #F5F4FA;
+}
+.container1{
+   width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+.np-item{
+  background-color: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.container2{
+    padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  width: 1200px;
+}
+.about-team{
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
+.about-name{
+  margin-bottom: 10px;
+}
+.container3{
+      padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  width: 1200px;
+}
+.container4{
+      padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  width: 1200px;
 }
