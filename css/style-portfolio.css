@@ -1,0 +1,146 @@
+/* -==================================== PORTFOLIO =================================- */
+/* Обнуление */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+/* ==================== */
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+/* header */
+.container-header {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+/* --- buttons --- */
+.buttons-container {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+.section-buttons {
+  padding-top: 94px;
+  padding-bottom: 56px;
+}
+.b-list1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  display: flex;
+  padding-left: 22px;
+  padding-right: 22px;
+  border: 0px;
+}
+.buttons-item {
+  margin-right: 8px;
+}
+.buttons {
+  margin-left: 309px;
+  margin-right: 324px;
+  justify-content: center;
+}
+.container1 {
+  background-color: #ffffff;
+}
+.b-list1:hover {
+  background-color: var(--accent-color);
+}
+
+/* ----- section __ images ----- */
+
+.section-images {
+  padding-top: 0px;
+  padding-bottom: 94px;
+}
+.nick {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+}
+.idea {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+.photo {
+  width: 370px;
+  height: 294px;
+}
+.block1 {
+  display: flex;
+}
+.block2 {
+  display: flex;
+}
+.block3 {
+  display: flex;
+}
+.block {
+  margin-right: 30px;
+  margin-bottom: 30px;
+  background-color: #ffffff;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
+.main-container {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+}
+.main {
+  background-color: #ffffff;
+}
+.nick {
+  text-align: center;
+}
+.idea {
+  text-align: center;
+}
+.img-item {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.section-images {
+  padding-top: 0px;
+  padding-bottom: 94px;
+}
+/* -------------- FOOTER ---------------- */
+
+.container-footer {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
